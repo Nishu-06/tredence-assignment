@@ -2,6 +2,14 @@
 
 A FastAPI-based mini agent workflow engine similar to LangGraph, implementing a simplified workflow execution system with nodes, edges, conditional branching, and looping capabilities.
 
+## Tech Stack
+
+- **Language:** Python 3.10+
+- **Framework:** FastAPI
+- **Tools:** Pydantic, Uvicorn
+- **Database:** In-memory (can extend to SQLite/Postgres)
+- **Testing:** Manual testing via Swagger / cURL
+
 ## Features
 
 - **Core Workflow Engine**: Execute workflows with nodes, edges, conditional branching, and loops
